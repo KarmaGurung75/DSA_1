@@ -47,6 +47,11 @@ public class StackTestChar {
         return top==-1;
     }
 
+    public static void main(String[] args) {
+        ParenthesisBalance pb = new ParenthesisBalance();
+        System.out.println(pb.checkBalance("()"));
+    }
+
 
 
 }
